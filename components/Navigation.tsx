@@ -44,7 +44,7 @@ export const Navigation: React.FC<NavigationProps> = ({ onNavigate, activeSectio
           aria-label="Errands Band Home"
         >
           <img 
-            src="./errands_logo.png" 
+            src="./logo.png" 
             alt="Errands Logo" 
             className="h-10 md:h-14 w-auto object-contain hover:opacity-80 transition-opacity" 
           />
