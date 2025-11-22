@@ -17,7 +17,7 @@ export const TourSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 w-full relative z-10">
         <div className="mb-16 text-center md:text-left border-b border-red-900/30 pb-8">
           <h2 className="text-5xl md:text-7xl font-heading font-black text-white mb-4">
-            WORLD <span className="text-red-600">TOUR</span>
+            TOUR <span className="text-red-600">DATES</span>
           </h2>
           <p className="text-gray-400 font-hand text-xl -rotate-1 inline-block">
             Chaos coming to a city near you.

@@ -25,10 +25,10 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-16">
         <h2 className="text-red-600 font-hand text-2xl md:text-4xl mb-4 rotate-[-2deg] opacity-90 tracking-widest">
-          The New Album 'Entropy' Out Now
+          The New Single 'Circles' Out Now
         </h2>
         <h1 className="text-6xl md:text-9xl font-black text-white font-heading tracking-tighter leading-none mb-8 drop-shadow-2xl">
-          NEON <br className="md:hidden" /> VEINS
+          ERRANDS
         </h1>
         <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-12">
           Sonic distortion meets melodic chaos. Join the revolution of sound.

@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
             <div className="absolute inset-0 border-2 border-red-600 translate-x-4 translate-y-4 hidden md:block"></div>
             <img 
               src="https://picsum.photos/800/1000?grayscale" 
-              alt="Neon Veins Band Members" 
+              alt="Errands Band Members" 
               className="w-full h-auto object-cover grayscale contrast-125 brightness-75 shadow-2xl relative z-10"
             />
             <div className="absolute bottom-0 left-0 bg-red-600 text-white px-6 py-2 font-heading font-bold tracking-widest text-xl z-20">
@@ -28,11 +28,11 @@ export const AboutSection: React.FC = () => {
           <div className="w-full lg:w-1/2 text-left">
             <h2 className="text-5xl md:text-7xl font-heading font-black text-white mb-8 leading-none">
               WE ARE <br />
-              <span className="text-red-600">NEON VEINS</span>
+              <span className="text-red-600">ERRANDS</span>
             </h2>
             
             <p className="text-xl text-gray-300 mb-6 font-serif leading-relaxed">
-              Born from the static of a dying analog world, Neon Veins is a four-piece alternative rock outfit hailing from the underground of Nashville, TN. 
+              Born from the static of a dying analog world, Errands is a four-piece alternative rock outfit hailing from the underground of Avcilar, IST. 
             </p>
             
             <p className="text-gray-400 mb-10 leading-relaxed">

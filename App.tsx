@@ -50,7 +50,7 @@ function App() {
       {/* Simple Footer */}
       <footer className="bg-black py-12 border-t border-neutral-900 text-center">
         <p className="text-neutral-500 text-sm">
-          &copy; {new Date().getFullYear()} Neon Veins. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Errands. All Rights Reserved.
         </p>
       </footer>
     </main>

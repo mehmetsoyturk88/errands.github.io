@@ -37,15 +37,20 @@ export const Navigation: React.FC<NavigationProps> = ({ onNavigate, activeSectio
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo / Band Name */}
-        <div 
-          className="text-2xl font-black tracking-tighter text-white font-heading cursor-pointer hover:text-red-500 transition-colors"
+        {/* Logo Image */}
+        <button 
           onClick={() => handleNavClick(SectionId.HERO)}
+          className="focus:outline-none"
+          aria-label="Errands Band Home"
         >
-          NEON<span className="text-red-600">VEINS</span>
-        </div>
+          <img 
+            src="./errands_logo.png" 
+            alt="Errands Logo" 
+            className="h-10 md:h-14 w-auto object-contain hover:opacity-80 transition-opacity" 
+          />
+        </button>
 
-        {/* Desktop Links (Top Left aligned as requested, pushed slightly right of logo) */}
+        {/* Desktop Links */}
         <div className="hidden md:flex ml-12 space-x-8">
           {navItems.map((item) => (
             <button
