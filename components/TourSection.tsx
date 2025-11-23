@@ -3,9 +3,9 @@ import { SectionId, TourDate } from '../types';
 import { MapPin, Calendar, Ticket } from 'lucide-react';
 
 const TOUR_DATES: TourDate[] = [
-  { id: '1', date: 'OCT 12', venue: 'The Basement East', city: 'Nashville, TN', status: 'sold-out' },
-  { id: '2', date: 'OCT 15', venue: '9:30 Club', city: 'Washington, DC', status: 'available' },
-  { id: '3', date: 'OCT 18', venue: 'Terminal 5', city: 'New York, NY', status: 'limited' },
+  { id: '1', date: 'OCT 12', venue: 'The Bollocks', city: 'Barcelona', status: 'sold-out' },
+  { id: '2', date: 'OCT 15', venue: 'Nevemind', city: 'Barcelona', status: 'available' },
+  { id: '3', date: 'OCT 18', venue: 'Razzmatazz', city: 'Barcelona', status: 'limited' },
 ];
 
 export const TourSection: React.FC = () => {
