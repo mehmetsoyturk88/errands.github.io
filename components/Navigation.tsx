@@ -44,9 +44,15 @@ export const Navigation: React.FC<NavigationProps> = ({ onNavigate, activeSectio
           aria-label="Errands Band Home"
         >
           <img 
-            src="./logo.png" 
+            src="/logo.png" 
             alt="Errands Logo" 
-            className="h-10 md:h-14 w-auto object-contain hover:opacity-80 transition-opacity" 
+            className="h-10 md:h-14 w-auto object-contain hover:opacity-80 transition-opacity"
+            onError={(e) => {
+              // Fallback if image fails to load (e.g. file missing)
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              // You could append a text fallback here if needed, but for now we hide broken image
+            }}
           />
         </button>
 

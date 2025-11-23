@@ -15,7 +15,7 @@ export const AboutSection: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="absolute inset-0 border-2 border-red-600 translate-x-4 translate-y-4 hidden md:block"></div>
             <img 
-              src="https://picsum.photos/800/1000?grayscale" 
+              src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop" 
               alt="Errands Band Members" 
               className="w-full h-auto object-cover grayscale contrast-125 brightness-75 shadow-2xl relative z-10"
             />

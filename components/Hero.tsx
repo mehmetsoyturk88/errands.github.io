@@ -12,11 +12,11 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
       id={SectionId.HERO} 
       className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-black"
     >
-      {/* Video Background Placeholder - In a real app, use a <video> tag here */}
+      {/* Video/Image Background */}
       <div className="absolute inset-0 w-full h-full z-0 opacity-60">
         <img 
-          src="https://picsum.photos/1920/1080?grayscale&blur=2" 
-          alt="Band Concert" 
+          src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=2070&auto=format&fit=crop" 
+          alt="Band Concert Live" 
           className="object-cover w-full h-full animate-pulse-slow scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/30" />
